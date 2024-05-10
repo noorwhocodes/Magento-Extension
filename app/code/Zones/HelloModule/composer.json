@@ -1,0 +1,27 @@
+{
+    "name": "noorwhocodes/sample-hello-module",
+    "description": "A module that creates a new page",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "keywords": [
+      "magento-2",
+      "magento",
+      "magento-2-extension"
+    ],
+    "require": {
+      "php": "~7.2.0||~7.3.0",
+      "magento/framework": "~100.0.4"
+    },
+    "autoload": {
+      "files": [ "registration.php" ],
+      "psr-4": {
+        "Zones\\HelloModule\\": ""
+      }
+    }
+  }
+  
+  
